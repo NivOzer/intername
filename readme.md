@@ -3,7 +3,7 @@
 ## Setup Instructions
 
 1. download the files.
-3. Update the `index.php` file with your database credentials.
+3. Update the `submit_lead.php` file with your database credentials.
 4. Usename for loging in is (admin,password) (password is hashed but verified)
 5. Access the landing page at `http://localhost/index.php`.
 6. Access the back office login at `http://localhost/login.php`.
