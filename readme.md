@@ -18,3 +18,22 @@ i would suggest going first to /login
 - HTML
 - JAVASCRIPT
 - CSS
+
+Questions:
+1.What's the difference between the include() and require() functions?
+  includes means even if it doesnt exist it will try to include it while require will not run if the file doesnt exist
+  
+2. Why would you use === instead of == ?
+  === strict comparison it also checks the type and the value instead of just the value - ill use it when i want to be strict with checking a variable
+
+4. What are the __construct() and __destruct() methods in a PHP class?
+  __construct() = constructor of a class - called when object is created, __destruct() destructor , called when object is destroyed/removed
+
+6. If you encounter error code 500 when executing a script, write the steps you would take to debug the error and solve it.
+  Server logging - and checking them (most of the time they provid good understanding of the bugg
+  stackoverflow/chatGPT for understing the problem
+  echo testlines
+  check permissions
+  devide the code to minimizing my code for the bugged section step by step
+  check Apache / MySQL server.
+
